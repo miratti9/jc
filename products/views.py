@@ -9,7 +9,7 @@ def import_excel(request):
     worksheet = workbook.sheet_by_index(0)
     num_rows = worksheet.nrows - 1
     curr_row = 1
-
+    #test
     while curr_row < num_rows:
         curr_row += 1
         row = worksheet.row(curr_row)
